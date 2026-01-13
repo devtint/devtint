@@ -153,53 +153,16 @@ me = SecurityResearcher()
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=FFFFFF" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=default&hide_border=true" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=FFFFFF" alt="GitHub Stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=devtint&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=FFFFFF&langs_count=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=devtint&layout=compact&theme=default&hide_border=true&langs_count=8" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devtint&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=devtint&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=devtint&theme=default&hide_border=true" />
-    <img width="60%" src="https://streak-stats.demolab.com?user=devtint&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
-  </picture>
-</div>
-
----
-
 ## Currently Exploring
 
 <div align="center">
 
 | Focus Area | Learning |
 |:---:|:---:|
-| Advanced Web Security | Buffer Overflows & Memory Corruption |
+| Advanced Web Security | Buffer Overflows and Memory Corruption |
 | Security Automation | CI/CD Security Pipelines |
 | Vulnerability Research | Fuzzing Techniques |
 
-</div>
-
----
-
-## Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtint/devtint/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devtint/devtint/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/devtint/devtint/output/github-snake-dark.svg" />
-  </picture>
 </div>
 
 ---

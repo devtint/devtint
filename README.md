@@ -105,11 +105,19 @@ me = SecurityResearcher()
 
 <div align="center">
 
-[![NUCLEI_CNM](https://github-readme-stats.vercel.app/api/pin/?username=devtint&repo=NUCLEI_CNM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1)](https://github.com/devtint/NUCLEI_CNM)
-[![SecurityHeaderScanner](https://github-readme-stats.vercel.app/api/pin/?username=devtint&repo=SecurityHeaderScanner&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1)](https://github.com/devtint/SecurityHeaderScanner)
+<a href="https://github.com/devtint/NUCLEI_CNM">
+  <img src="./assets/card_nuclei.png" width="400" alt="NUCLEI Command Center"/>
+</a>
+<a href="https://github.com/devtint/SecurityHeaderScanner">
+  <img src="./assets/card_headers.png" width="400" alt="Security Header Scanner"/>
+</a>
 
-[![Js-And-Endpoints-scanner](https://github-readme-stats.vercel.app/api/pin/?username=devtint&repo=Js-And-Endpoints-scanner&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1)](https://github.com/devtint/Js-And-Endpoints-scanner)
-[![r3verse_shells_gen](https://github-readme-stats.vercel.app/api/pin/?username=devtint&repo=r3verse_shells_gen&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1)](https://github.com/devtint/r3verse_shells_gen)
+<a href="https://github.com/devtint/Js-And-Endpoints-scanner">
+  <img src="./assets/card_scanner.png" width="400" alt="JS & Endpoint Scanner"/>
+</a>
+<a href="https://github.com/devtint/r3verse_shells_gen">
+  <img src="./assets/card_shell.png" width="400" alt="Reverse Shell Generator"/>
+</a>
 
 </div>
 

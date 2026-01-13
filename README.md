@@ -106,17 +106,17 @@ me = SecurityResearcher()
 <div align="center">
 
 <a href="https://github.com/devtint/NUCLEI_CNM">
-  <img src="./assets/card_nuclei.png" width="400" alt="NUCLEI Command Center"/>
+  <img src="./assets/card_nuclei.png" width="400" alt="NUCLEI Command Center" style="border-radius: 10px; border: 1px solid #30363d;"/>
 </a>
 <a href="https://github.com/devtint/SecurityHeaderScanner">
-  <img src="./assets/card_headers.png" width="400" alt="Security Header Scanner"/>
+  <img src="./assets/card_headers.png" width="400" alt="Security Header Scanner" style="border-radius: 10px; border: 1px solid #30363d;"/>
 </a>
 
 <a href="https://github.com/devtint/Js-And-Endpoints-scanner">
-  <img src="./assets/card_scanner.png" width="400" alt="JS & Endpoint Scanner"/>
+  <img src="./assets/card_scanner.png" width="400" alt="JS & Endpoint Scanner" style="border-radius: 10px; border: 1px solid #30363d;"/>
 </a>
 <a href="https://github.com/devtint/r3verse_shells_gen">
-  <img src="./assets/card_shell.png" width="400" alt="Reverse Shell Generator"/>
+  <img src="./assets/card_shell.png" width="400" alt="Reverse Shell Generator" style="border-radius: 10px; border: 1px solid #30363d;"/>
 </a>
 
 </div>

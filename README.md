@@ -173,12 +173,17 @@ what it actually does:
 ### github stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=vitesse-light&hide_border=true&count_private=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devtint&layout=compact&theme=vitesse-light&hide_border=true" height="170" />
+  <img src="https://streak-stats.demolab.com?user=devtint&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=devtint&theme=default" height="165" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=devtint&theme=vitesse-light&hide_border=true" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=devtint&theme=default&utcOffset=7" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=devtint&theme=default" width="49%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=devtint&theme=github-compact&hide_border=true" width="100%" />
 </div>
 
 ---

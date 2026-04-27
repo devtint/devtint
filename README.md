@@ -1,43 +1,26 @@
 <div align="center">
 
-<!-- Header Capsule -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F4D03F&height=250&section=header&text=Tyr3ll&fontSize=90&animation=fadeIn&fontAlignY=38" width="100%"/>
+# devtint
 
-<!-- Subtitle -->
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=F39C12&center=true&vCenter=true&width=600&lines=Security+Tool+Architect;Vulnerability+Research;Full-Stack+Automation;Directive%3A+Build+Secure+Systems" alt="Typing SVG" />
-</h2>
+security research and tool development based in bangkok.
 
-<!-- Solar Level Bar -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Solar_Level-100%25-F4D03F?style=for-the-badge&logo=solar-panel&logoColor=black" />
-  <img src="https://img.shields.io/badge/Status-Directive_Active-F39C12?style=for-the-badge&logo=robot&logoColor=white" />
-</p>
-
-<!-- Social Badges -->
-<div align="center">
-  <a href="https://tintnaingwin.vercel.app"><img src="https://img.shields.io/badge/Portfolio-F4D03F?style=for-the-badge&logo=vercel&logoColor=black" /></a>
-  <a href="https://t.me/BadCodeWriter"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="https://github.com/devtint"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</div>
+[portfolio](https://tintnaingwin.vercel.app) / [telegram](https://t.me/BadCodeWriter) / [github](https://github.com/devtint)
 
 </div>
 
 ---
 
-### 🤖 Directive: Security & Automation
+### engineering
 
-> "Eeee...va? No, Tyr3ll. Building tools to clean up the digital waste."
-
-I am a **Security Tool Developer** based in Bangkok, specializing in **Offensive Security Automation**. My mission is to build robust, scalable tools that simplify complex security workflows, from vulnerability research to automated remediation.
+i specialize in building automated systems for security research and offensive operations. my work focuses on developing scalable tools that streamline vulnerability analysis, network auditing, and infrastructure management.
 
 ---
 
-### 🛠️ Tech Arsenal
+### tech stack
 
 <div align="center">
 
-| Languages | Frameworks | Security |
+| languages | frameworks | security |
 | :--- | :--- | :--- |
 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" /> | <img src="https://img.shields.io/badge/Nuclei-00C4CC?style=flat-square" /> |
 | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> | <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burp-suite&logoColor=white" /> |
@@ -47,23 +30,66 @@ I am a **Security Tool Developer** based in Bangkok, specializing in **Offensive
 
 ---
 
-### 🚀 Featured Deployments
+### projects
 
-#### 🛡️ Offensive Security
-- 🤖 **[NUCLEI_CNM](https://github.com/devtint/NUCLEI_CNM)**: AI-enhanced vulnerability management dashboard. Centralized scan operations with real-time intelligence.
-- 📡 **[CAPTIVE_AUDIT](https://github.com/devtint/CAPTIVE_AUDIT)**: Advanced security auditing suite for Captive Portal environments.
-- 🕵️ **[SecurityHeaderScanner](https://github.com/devtint/SecurityHeaderScanner)**: Professional OWASP-compliant security header analysis engine.
-- 🧩 **[Js-And-Endpoints-scanner](https://github.com/devtint/Js-And-Endpoints-scanner)**: Deep reconnaissance extension for JS discovery.
-- 🔓 **[API_PENTEST](https://github.com/devtint/API_PENTEST)**: Automated API security testing suite for modern web architectures.
+#### security research
 
-#### ⚡ Developer Intelligence
-- 🌌 **[antigravity-usage](https://github.com/devtint/antigravity-usage)**: High-precision CLI for monitoring AI model quota and usage.
-- 📚 **[free-stack](https://github.com/devtint/free-stack)**: Comprehensive architectural guide for $0/mo production stacks.
-- ⚙️ **[WarpConfGen](https://github.com/devtint/WarpConfGen)**: Automated configuration generator for Warp/Cloudflare assets.
+- **[NUCLEI_CNM](https://github.com/devtint/NUCLEI_CNM)**
+  centralized management platform for nuclei-based vulnerability scanning operations.
+  - ai-assisted template generation and scan optimization.
+  - real-time orchestration of distributed scanning nodes.
+  - comprehensive vulnerability tracking and historical data analytics.
+  - support for large-scale multi-target concurrent scan workflows.
+
+- **[CAPTIVE_AUDIT](https://github.com/devtint/CAPTIVE_AUDIT)**
+  security analysis toolkit specifically designed for captive portal infrastructure.
+  - multi-threaded authentication bypass probing and verification.
+  - automated network configuration, dns, and dhcp auditing.
+  - integrated reporting engine for generating compliance and risk reports.
+  - specialized payloads for identifying logic flaws in portal redirect mechanisms.
+
+- **[SecurityHeaderScanner](https://github.com/devtint/SecurityHeaderScanner)**
+  automated engine for validating and auditing http security configurations.
+  - deep analysis of content security policy (csp), hsts, and cors implementations.
+  - owasp-aligned security scoring system with detailed remediation guidance.
+  - cli-first design for seamless integration into ci/cd security pipelines.
+  - support for custom header policy definitions and enterprise compliance checks.
+
+- **[Js-And-Endpoints-scanner](https://github.com/devtint/Js-And-Endpoints-scanner)**
+  static analysis and reconnaissance tool for client-side javascript assets.
+  - regex-based extraction of hidden api endpoints, internal routes, and variables.
+  - discovery of sensitive hardcoded information including api keys and tokens.
+  - browser extension integration for real-time traffic interception and analysis.
+  - automated mapping of application logic through client-side code analysis.
+
+- **[API_PENTEST](https://github.com/devtint/API_PENTEST)**
+  automated testing framework for identifying vulnerabilities in rest and graphql apis.
+  - automated discovery of api surface area and undocumented endpoints.
+  - fuzzing-based detection for broken object level authorization (bola) and other flaws.
+  - built-in support for complex authentication schemes including oauth2 and jwt.
+
+#### infrastructure & tools
+
+- **[antigravity-usage](https://github.com/devtint/antigravity-usage)**
+  utility for tracking and monitoring large language model (llm) consumption.
+  - real-time token usage monitoring and estimated cost calculations.
+  - multi-provider support with centralized usage auditing.
+  - designed for high-precision resource management in ai-driven projects.
+
+- **[free-stack](https://github.com/devtint/free-stack)**
+  architectural guide and template for deploying production systems on zero-cost tiers.
+  - detailed documentation for configuring full-stack apps on free-tier infrastructure.
+  - performance optimization strategies for resource-constrained environments.
+  - battle-tested configurations for database, caching, and web layers.
+
+- **[WarpConfGen](https://github.com/devtint/WarpConfGen)**
+  configuration generator for cloudflare warp and zero trust network assets.
+  - automated generation of wireguard-compatible configuration files.
+  - support for advanced routing, split-tunneling, and device registration workflows.
 
 ---
 
-### 📊 System Analytics
+### analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F4D03F&icon_color=F39C12&text_color=94A3B8" height="180" />
@@ -72,11 +98,4 @@ I am a **Security Tool Developer** based in Bangkok, specializing in **Offensive
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=devtint&bg_color=0D1117&color=F4D03F&line=F4D03F&point=FFFFFF&area=true&area_color=F4D03F&hide_border=true" width="100%" />
-</div>
-
----
-
-<div align="center">
-  <sub>Directive: COMPLETED. | Built with obsession.</sub><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=F4D03F&height=100&section=footer" width="100%"/>
 </div>

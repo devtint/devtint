@@ -92,10 +92,5 @@ i specialize in building automated systems for security research and offensive o
 ### analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=devtint&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F4D03F&icon_color=F39C12&text_color=94A3B8" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devtint&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F4D03F&icon_color=F39C12&text_color=94A3B8" height="180" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=devtint&bg_color=0D1117&color=F4D03F&line=F4D03F&point=FFFFFF&area=true&area_color=F4D03F&hide_border=true" width="100%" />
 </div>

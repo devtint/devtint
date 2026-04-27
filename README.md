@@ -50,123 +50,21 @@ ai integration in tooling   -->  using llms to help with template generation and
 
 #### security tooling
 
----
-
-**[NUCLEI_CNM](https://github.com/devtint/NUCLEI_CNM)**
-
-a full management platform built around the nuclei vulnerability scanner. the goal was to get past the limitations of running nuclei directly from the cli and give it a proper operational interface.
-
-what it actually does:
-- full dashboard for managing nuclei scan templates, targets, and active scans
-- ai-powered template suggestions based on target fingerprint and technology stack
-- multi-node scan distribution so you can run concurrent campaigns without overloading a single machine
-- real-time vulnerability feed with severity tagging, deduplication, and history tracking
-- export-ready reports in json, pdf, and markdown for client deliverables
-- api-first design so you can wire it into your existing security pipeline
-- built on react + next.js frontend with a python/fastapi backend and postgres storage
-
----
-
-**[CAPTIVE_AUDIT](https://github.com/devtint/CAPTIVE_AUDIT)**
-
-purpose-built toolkit for testing captive portal security. most security tools are not designed with captive portals in mind, so a lot of common bypass techniques and misconfigurations go undetected.
-
-what it actually does:
-- multi-threaded authentication bypass probing across a configurable set of payloads and logic variations
-- dns poisoning and dhcp spoofing detection tests
-- automated mapping of the full portal flow: unauthenticated state, redirect chain, session handling, and post-auth behavior
-- header injection testing for x-forwarded-for and other common proxy bypass vectors
-- ssl stripping detection and certificate validation checks
-- real-time network packet capture with protocol analysis at the ip, tcp, and http layers
-- structured html and pdf report output with evidence attachments and remediation notes
-- a web-based interface for running audits on-site from a laptop or termux session on android
-
----
-
-**[SecurityHeaderScanner](https://github.com/devtint/SecurityHeaderScanner)**
-
-an automated engine that checks how well web applications are configured at the http header level. this sounds boring but misconfigured headers are one of the most consistent sources of real-world vulnerabilities.
-
-what it actually does:
-- complete validation of all major security headers: csp, hsts, x-frame-options, referrer-policy, permissions-policy, cors, cto, and more
-- detailed breakdown of what each header value actually means and what the risks are if it is missing or misconfigured
-- owasp-aligned scoring rubric with weighted severity for each finding
-- custom policy support, so you can define what an acceptable header configuration looks like for your specific environment
-- diff mode, so you can compare a production site against a baseline and catch regressions
-- integrates directly into ci/cd pipelines via github actions or any ci runner that supports cli tools
-- outputs findings as json, junit xml (for ci test result dashboards), or human-readable markdown
-
----
-
-**[Js-And-Endpoints-scanner](https://github.com/devtint/Js-And-Endpoints-scanner)**
-
-a browser extension and cli combo for extracting hidden surface area from javascript files. js bundles contain a lot more information than most developers realize.
-
-what it actually does:
-- static regex analysis across loaded js files looking for api endpoints, internal routes, function names, and parameter names
-- secret detection: api keys, tokens, base64-encoded credentials, environment variable names, and internal service urls
-- real-time interception of xhr and fetch requests to build a live endpoint map during manual browsing
-- exportable sitemap of discovered endpoints with method, parameter, and origin information
-- supports both the browser extension interface for interactive recon and a headless cli mode for automated scanning pipelines
-- deobfuscation support for common webpack and terser bundle patterns
-
----
-
-**[API_PENTEST](https://github.com/devtint/API_PENTEST)**
-
-an automated framework for finding vulnerabilities specific to rest and graphql api surfaces.
-
-what it actually does:
-- automated api crawling and surface discovery from openapi specs, postman collections, or live traffic capture
-- fuzzing for broken object level authorization (bola/idor), mass assignment, and schema injection
-- authentication bypass testing across jwt, api keys, session tokens, and oauth2 flows
-- rate limiting and business logic abuse detection
-- graphql introspection analysis and query fuzzing
-- custom payload injection at every parameter, header, and body field
-- integration with burp suite as an extension for use in manual testing sessions
-
----
+| project | description |
+| :--- | :--- |
+| **[NUCLEI_CNM](https://github.com/devtint/NUCLEI_CNM)** | management dashboard for nuclei scans. multi-node distribution, ai template suggestions, real-time vuln feed, and report export. |
+| **[CAPTIVE_AUDIT](https://github.com/devtint/CAPTIVE_AUDIT)** | captive portal security auditing toolkit. bypass probing, dns/dhcp tests, packet capture, and structured pdf reporting. |
+| **[SecurityHeaderScanner](https://github.com/devtint/SecurityHeaderScanner)** | validates http security headers against owasp standards. csp, hsts, cors, and more. ci/cd ready. |
+| **[Js-And-Endpoints-scanner](https://github.com/devtint/Js-And-Endpoints-scanner)** | extracts hidden api endpoints, secret keys, and internal routes from js bundles. browser extension + cli. |
+| **[API_PENTEST](https://github.com/devtint/API_PENTEST)** | automated rest and graphql api security testing. fuzzes for bola, auth bypasses, schema injection, and rate limit abuse. |
 
 #### tools and utilities
 
----
-
-**[antigravity-usage](https://github.com/devtint/antigravity-usage)**
-
-a monitoring utility for ai model consumption and quota tracking. built because i was burning through tokens without realizing it.
-
-what it actually does:
-- real-time tracking of token usage across all api calls to supported llm providers
-- estimated cost calculation based on current provider pricing, updated regularly
-- usage aggregation by project, model, and time period for proper budget management
-- alert system that warns you before you hit quota limits
-- export to csv or json for billing reconciliation
-
----
-
-**[free-stack](https://github.com/devtint/free-stack)**
-
-a living documentation repo covering how to run a full production web stack completely free by chaining together the free tiers of various cloud providers.
-
-what it actually does:
-- detailed setup guides for frontend (vercel/netlify), backend (fly.io/render), database (supabase/neon), and cache (upstash) layers
-- performance benchmarks comparing different free-tier combinations under realistic load
-- architecture diagrams for the most common use cases: api + db, full-stack saas, static site with serverless functions
-- cost breakdowns showing exactly when and how you hit limits, and what to upgrade first
-- community-contributed configurations for popular frameworks including next.js, fastapi, and express
-
----
-
-**[WarpConfGen](https://github.com/devtint/WarpConfGen)**
-
-configuration generator for cloudflare warp and wireguard-based zero trust setups.
-
-what it actually does:
-- automated generation of wireguard configuration files compatible with cloudflare warp endpoints
-- device registration flow automation through the cloudflare api
-- split-tunneling configuration support with per-app routing rules
-- batch generation for managing multiple device configs across a team
-- custom dns configuration injection and validation
+| project | description |
+| :--- | :--- |
+| **[antigravity-usage](https://github.com/devtint/antigravity-usage)** | tracks llm token usage and costs across providers in real time. built for budget awareness when working with ai apis. |
+| **[free-stack](https://github.com/devtint/free-stack)** | documentation and configs for running a full production web stack on $0/mo using free-tier cloud services. |
+| **[WarpConfGen](https://github.com/devtint/WarpConfGen)** | generates wireguard configs for cloudflare warp. handles device registration, split-tunneling, and batch config management. |
 
 ---
 

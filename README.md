@@ -2,7 +2,7 @@
 
 # TYRELL
 
-security researcher, tool developer, automation nerd from bangkok.
+security researcher, tool developer, automation.
 
 i break things, figure out why they break, then build tools so others can break them faster.
 
